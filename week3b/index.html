@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<style>
+    table{
+        background-color: rgb(57, 167, 157);
+        margin-left: 40%;
+    }
+</style>
+<body>
+    <div>
+        <form action="submit">
+        <table>
+            <tr>
+                <td><label for="name">First name:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr> 
+                <td><label for="name">Last name:</label></td>
+                <td><input type="text" name="fname" required></td>
+            </tr>
+            <tr>
+                <td><label for="name">Phone number:</label></td>
+                <td><input type="tel" placeholder="+234-906-306-7956" pattern="{+}[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td><label for="name">Gender:</label></td>
+                <td><select name="" id="gender">
+                <option value="Female">Female</option>
+                <option value="Male">Male</option></select></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of birth</label></td>
+                <td><input type="date" max="2005-10-10" min="1990-10-10"></td>
+            </tr>
+            <tr>
+                <td><label for="colour">Favourite colour</label></td>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+                <td>
+                    <button><a href="login.html">Submit</button></a>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
