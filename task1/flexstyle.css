@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+@media screen and (max-width:375px){
+    body{
+        background-color: blue;
+    }
+    .parent{
+        flex-direction: column;
+    }
+    
+}
+main .parent{
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    height: 100vh;
+    place-items: center;
+}
+.pc0{
+    background-color:hsl(31, 77%, 52%) ;
+    padding: 2em;
+    width: 50%;
+    border-radius: 9px 0px 0px 9px;
+}
+.pc1{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 50%;
+}
+.pc2{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 50%;
+    border-radius: 0px 9px 9px 0px;
+}
+div p{
+    text-align: left;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 1.5em;
+    font-weight: 400;
+}
+div h1{
+    font-family: 'Big Shoulders Display', cursive;
+    padding-top: 1em;
+}
+#link{
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+}
+.btn1{
+    margin-top: 5em;
+    border-radius: 17px;
+    padding: 7px 22px;
+    background-color:hsl(31, 77%, 52%) ;
+    border-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.btn2{
+    margin-top: 5em;
+    border-radius: 17px;
+    padding: 7px 22px;
+    background-color: hsl(184, 100%, 22%);
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.btn3{
+    margin-top: 5em;
+    border-radius: 17px;
+    padding: 7px 22px;
+    background-color: hsl(179, 100%, 13%);
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+div h1{
+    color: hsl(0, 0%, 95%);
+}
